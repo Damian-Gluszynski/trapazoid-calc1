@@ -1,0 +1,6 @@
+game.splash("Area and perimeter of a trapezoid")
+let length = game.askForNumber("length cm")
+let width = game.askForNumber("width cm")
+let hight = game.askForNumber("hight cm")
+let area = length + width / (2 * hight)
+game.splash(convertToText(area))
